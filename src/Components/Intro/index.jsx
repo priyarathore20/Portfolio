@@ -18,10 +18,10 @@ const IntroSection = () => {
         <Intro>Hello,</Intro>
         <IntroText>
           I'm <span>Priya</span>
-          <br /> Website Designer
+          <br /> Website Developer
           <IntroPara>
-            I'm a skilled web designer with experience in creating visually
-            appealing and user friendly websites. <br />
+            I'm a skilled web developer with experience in creating visually
+            <br /> appealing and user friendly websites. <br />
             <a href="www.youtube.com">
               <button>
                 <img src={btnImg} alt="" /> Hire me

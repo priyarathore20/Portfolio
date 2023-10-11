@@ -5,7 +5,7 @@ import IntroSection from "./Components/Intro";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <IntroSection />
           </div>
   );
