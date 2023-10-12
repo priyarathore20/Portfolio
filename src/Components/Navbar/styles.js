@@ -11,6 +11,7 @@ export const NavbarWrapper = styled.nav`
   justify-content: space-between;
   position: sticky;
   top: 0;
+  background-color: rgb(30, 30, 30);
   z-index: 5;
 
   img {
