@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ClientWrapper = styled.div`
 overflow:hidden;
 width: 100vw;
-min-height: calc(100vh - 4rem);
+/* min-height: calc(100vh - 4rem); */
 max-width: 75rem;
 display: flex;
 flex-direction: column;
@@ -31,6 +31,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 gap: 2rem;
+margin-bottom: 2rem;
 
 img{
     max-width: 12rem;
