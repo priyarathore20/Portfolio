@@ -28,7 +28,7 @@ export const DesktopMenu = styled.div`
     cursor: pointer;
   }
 
-  a:hover{
+  a:hover {
     border-bottom: 3px solid yellow;
     color: yellow;
     padding-bottom: 0.5rem;
@@ -43,9 +43,10 @@ export const DesktopMenuBtn = styled.button`
   background-color: white;
   color: black;
   border-radius: 2rem;
-letter-spacing: 0.7px;
+  letter-spacing: 0.7px;
+  cursor: pointer;
   font-size: 14px;
-  
+
   img {
     height: 1rem;
     width: 1rem;

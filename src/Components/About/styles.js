@@ -24,7 +24,9 @@ max-width: 50rem;
 padding: 0 2rem;
 `
 export const AboutCards = styled.div`
-max-width: 45rem;
+max-width: 80%;
+width: 100vw;
+text-align: left;
 width: 100vw;
 margin-top: 2rem;
 `
@@ -33,14 +35,22 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 border: none;
-border-radius: 2rem;
+border-radius: 0.5rem;
 background-color: rgb(50, 50, 50);
 margin-bottom: 1.5rem;
 padding: 2rem;
-max-height: 7rem;
+/* max-height: 7rem; */
 
 img{
-height: 3.5rem;
+height: 3rem;
+width: 3rem;
+margin-right: 2rem;
+object-fit: cover;
+
+@media screen and (max-width: 480px){
+    height: 2.25rem;
+    width: 2.25rem;
+}
 }
 `
 export const AboutText = styled.div`
@@ -48,8 +58,21 @@ width: 100%;
 h2{
 text-align: left;
 font-size: 1.5rem;
+
+@media screen and (max-width: 480px){
+    font-size: 5vw;
+}
 }
 p{
-font-size: small;
+font-size: 0.9rem;
+font-weight: 200;
+
+@media screen and (max-width: 720px){
+    font-size: 3vw;
+}
+
+@media screen and (max-width: 480px){
+    font-size: 3vw;
+}
 }
 `
