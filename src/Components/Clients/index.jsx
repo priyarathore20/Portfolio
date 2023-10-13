@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  ClientCard,
   ClientCards,
   ClientDescription,
   ClientHeader,
@@ -9,20 +10,24 @@ import company1 from "../../assets/facebook.png";
 import company2 from "../../assets/walmart.png";
 import company3 from "../../assets/microsoft.png";
 import company4 from "../../assets/adobe.png";
+import { data } from "../../data";
 
 const MyClients = () => {
   return (
     <ClientWrapper id="clients">
-      <ClientHeader>My clients</ClientHeader>
-      <ClientDescription>
-        I have had the opportunity to work with a diverse group of companies.
-        some of the notable companies that i have worked with include.
-      </ClientDescription>
+      <ClientHeader>{data.skillSection.title}</ClientHeader>
+      {data.skillSection.text && (
+        <ClientDescription>{data.skillSection.text}</ClientDescription>
+      )}
       <ClientCards>
-        <img src={company1} alt="" />
-        <img src={company2} alt="" />
-        <img src={company3} alt="" />
-        <img src={company4} alt="" />
+        {data.skillSection.skills.map((item) => {
+          return (
+            <ClientCard>
+              <img src={item.img} alt={item.label} />
+              <p>{item.label}</p>
+            </ClientCard>
+          );
+        })}
       </ClientCards>
     </ClientWrapper>
   );

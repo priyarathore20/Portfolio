@@ -65,7 +65,21 @@ export const IntroText = styled.span`
 
   @media screen and (max-width: 840px) {
   }
-`;
+`
+export const IntroButton = styled.a`
+    height: 50px;
+    width: 100%;
+    max-width: 90px;
+margin-right: 10px;
+border-radius: 0.5rem;
+
+> img{
+  height: 50px;
+  width: 50px;
+object-fit: cover;
+border-radius: 50%;
+}
+`
 export const IntroImg = styled.img`
   position: absolute;
   top: -4rem;

@@ -44,12 +44,14 @@ justify-content: center;
 align-items: center;
 gap: 1rem;
 
-input{
+input, textarea{
     background-color: rgb(50,50,50);
+    resize: none;
     outline: none;
     border: none;
     width: 30rem;
     padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
     border-radius: .5rem;
     font-size: small;
     font-weight: 300;

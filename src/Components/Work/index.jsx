@@ -7,17 +7,13 @@ import portfolio3 from "../../assets/portfolio-3.png";
 import portfolio4 from "../../assets/portfolio-4.png";
 import portfolio5 from "../../assets/portfolio-5.png";
 import portfolio6 from "../../assets/portfolio-6.png";
+import { data } from "../../data";
 
 const WorkSection = () => {
   return (
     <WorkWrapper id="works">
-      <WorkHead>My Portfolio</WorkHead>
-      <WorkText>
-        I take pride in paying attention to the smallest details and making sure
-        that my work is pixel perfect. i am excited to bring my skills and
-        experience to help businesses achieve their goals and create a strong
-        online presence.
-      </WorkText>
+      <WorkHead>{data.workSection.title}</WorkHead>
+      <WorkText>{data.workSection.text}</WorkText>
       <WorkCards>
         <WorkCard>
           <img src={portfolio1} alt="" />

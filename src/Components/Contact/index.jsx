@@ -16,7 +16,7 @@ const ContactSection = () => {
       <ContactForm>
         <input type="text" placeholder="Your name" />
         <input type="text" placeholder="Your Email" />
-        <input type="text" placeholder="Message" />
+        <textarea type="text" placeholder="Message" rows={5} />
       </ContactForm>
       <button>Submit</button>
     </ContactFormWrapper>

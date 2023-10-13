@@ -6,8 +6,8 @@ import ContactImg from "../../assets/contact.png";
 
 const Navbar = () => {
   return (
-    <NavbarWrapper>
-      <img src={Logo} alt="" />
+    <NavbarWrapper color="red">
+      <div></div>
       <DesktopMenu>
         <a href="#">Home</a>
         <a href="#">About</a>
