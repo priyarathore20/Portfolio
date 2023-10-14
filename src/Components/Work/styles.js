@@ -36,22 +36,87 @@ padding: 0 2rem;
 margin-bottom: 1rem;
 `
 export const WorkCards = styled.div`
-display: flex;
+ display: flex;
+ width: 100vw;
+ max-width: 80%;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-gap: 2rem;
+gap: 2rem; 
 `
 export const WorkCard = styled.div`
-/* margin-top: 2rem ; */
+display: flex;
+max-width: 50rem;
+width: 100vw;
+justify-content: space-around;
+background-color: ${({color}) => color};
+border-radius: 1.5rem;
+padding: 20px;
+
+div{
+    display: flex;
+justify-content: center;
+gap: .75rem;
+align-items: center;
+}
+
+
+h4{
+    text-transform: capitalize;
+font-size: 1.75rem;
+margin-bottom:0.5rem;
+}
+
+p{
+font-size: 14px;
+text-wrap: balance;
+margin-bottom:0.5rem;
+}
+a:hover{
+    background-color: ${({hover})=> hover};
+}
+
+a{
+    color: white;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+span{
+    font-size: 16px;
+    font-weight: 600;
+}
 
 img{
-    height: 20rem;
+    height: 10rem;
     object-fit: cover;
     border-radius: 1rem;
 
-    @media screen and (max-width: 585px) {
-        height: 48vw;
+
+    @media screen and (min-width: 585px) {
+        height: 8rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+@media screen and (max-width: 470px) {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 585px) {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `

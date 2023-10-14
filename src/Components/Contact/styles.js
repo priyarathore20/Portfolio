@@ -49,7 +49,8 @@ input, textarea{
     resize: none;
     outline: none;
     border: none;
-    width: 30rem;
+    width: 100vw;
+    max-width: 30rem;
     padding: 0.5rem 1rem;
     font-family: "Poppins", sans-serif;
     border-radius: .5rem;
