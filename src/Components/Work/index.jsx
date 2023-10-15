@@ -27,7 +27,6 @@ const WorkSection = () => {
           </WorkCard>
         ))}
       </WorkCards>
-      <button>See more</button>
     </WorkWrapper>
   );
 };

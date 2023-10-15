@@ -8,6 +8,9 @@ import wtsapImg from '../src/assets/whatsapp.png'
 import netflixImg from '../src/assets/netflix.png'
 import cartImg from '../src/assets/e-cart.jpg'
 import booksImg from '../src/assets/books-png.png'
+import linkedIn from '../src/assets/linkedin-icon.png'
+import git from '../src/assets/github-icon.png'
+import mail from '../src/assets/mail.png'
 
 export const data = {
   introSection: {
@@ -115,8 +118,11 @@ export const data = {
   ]
   },
 
-  socialLinks: {
-   linkedIn : "",
-   github : ""
-  }
+  footer: [
+   {linkedIn : "", img: ""},
+   {github : "", img: ""},
+   {email:'', img: ""} 
+  ]
 };
+
+
