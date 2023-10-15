@@ -17,12 +17,10 @@ const WorkSection = () => {
               <p>{item.desc}</p>
               <div>
                 <div>
-                  <span>Github link :- </span>
-                  <a href={item.git}>Click here</a>
+                  <a href={item.git}>Github</a>
                 </div>
                 <div>
-                  <span>deployed link :- </span>
-                  <a href={item.vercel}>Click here</a>
+                  <a href={item.vercel}>View now</a>
                 </div>
               </div>
             </section>
