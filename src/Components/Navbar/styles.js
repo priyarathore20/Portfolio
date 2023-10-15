@@ -16,7 +16,7 @@ export const NavbarWrapper = styled.nav`
 
   img {
     object-fit: cover;
-    height: 3rem;
+    height: 4rem;
     width: 4rem;
   }
 `;
@@ -47,10 +47,21 @@ export const DesktopMenuBtn = styled.button`
   cursor: pointer;
   font-size: 14px;
 
+a{
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
   img {
     height: 1rem;
     width: 1rem;
     margin: 1rem;
     object-fit: cover;
   }
-`;
+`
+
+export const BurgerMenu = styled.div`
+display: none;
+/* visibility: hidden; */
+`

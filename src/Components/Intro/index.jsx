@@ -26,7 +26,9 @@ const IntroSection = () => {
           {data.introSection.designation}
           <IntroPara>
             {data.introSection.description[0]}
-            <br /> {data.introSection.description[1]} <br />
+            <br /> {data.introSection.description[1]}
+            <br /> {data.introSection.description[2]}
+            <br /> {data.introSection.description[3]} <br />
             <a href="www.youtube.com">
               <button>
                 <img src={btnImg} alt="" /> Hire me
@@ -34,10 +36,14 @@ const IntroSection = () => {
             </a>
           </IntroPara>
           <IntroButton>
-            <img src={inImg} alt="" />
+            <a href="https://www.linkedin.com/in/priya-rathore-46370b250/">
+              <img src={inImg} alt="" />
+            </a>
           </IntroButton>
           <IntroButton>
-            <img src={gitImg} alt="" />
+            <a href="https://github.com/priyarathore20" alt="">
+              <img src={gitImg} alt="" />
+            </a>
           </IntroButton>
         </IntroText>
       </IntroContent>

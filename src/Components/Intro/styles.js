@@ -37,6 +37,7 @@ export const IntroPara = styled.p`
   font-size: medium;
   font-weight: 300;
   letter-spacing: 1px;
+  /* text-wrap: balance; */
 
   button {
     background-color: white;
@@ -73,11 +74,12 @@ export const IntroButton = styled.a`
 margin-right: 10px;
 border-radius: 0.5rem;
 
-> img{
+ img{
   height: 50px;
   width: 50px;
 object-fit: cover;
 border-radius: 50%;
+cursor: pointer;
 }
 `
 export const IntroImg = styled.img`

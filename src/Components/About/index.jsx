@@ -33,13 +33,6 @@ const AboutSection = () => {
             <p>{data.aboutSection.card2.text}</p>
           </AboutText>
         </AboutCard>
-        <AboutCard>
-          <img src={appDesign} alt="" />
-          <AboutText>
-            <h2>{data.aboutSection.card3.title}</h2>
-            <p>{data.aboutSection.card3.text}</p>
-          </AboutText>
-        </AboutCard>
       </AboutCards>
     </AboutWrapper>
   );

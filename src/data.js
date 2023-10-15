@@ -15,26 +15,22 @@ export const data = {
     name: "Priya",
     designation: "Web Developer",
     description: [
-      "I'm a skilled web developer with experience in creating visually",
-      "appealing and user friendly websites.",
-    ],
+      "I am a dedicated developer on an unceasing journey", "of self-improvement, committed to deepening", "my expertise and pushing the boundaries of my field", "to achieve the highest level of excellence.",
+    ]
   },
 
   aboutSection: {
-    title: "What I do",
+    title: "What I do?",
     description:
-      " i am a skilled and passionate web developer with experience in creating visually appealing and user-friendly websites. i have a strong understanding of design and a keen eye for detail. i am proficient in HTML, CSS and Javascript, as well as design software such as adobe photoshop and illustrator.",
+      "Here's the spark that fuels my boundless curiosity :",
     card1: {
       title: "UI/UX Designer",
-      text: "This is a demo text. You can write your own content here.",
+      text: "As a passionate and motivated UI/UX design student, I approach design challenges with creativity and user-centricity. Through coursework and personal projects, I've honed my skills in wireframing, prototyping, and problem-solving. My portfolio showcases my dedication to creating intuitive, aesthetically pleasing digital experiences."
+      ,
     },
     card2: {
-      title: "Web Designer",
-      text: "This is a demo text. You can write your own content here.",
-    },
-    card3: {
-      title: "App Designer",
-      text: "This is a demo text. You can write your own content here.",
+      title: "Web Developer",
+      text: "As a dedicated frontend web developer, I specialize in crafting visually stunning and highly responsive user interfaces. My proficiency in HTML, CSS, and JavaScript, along with a keen eye for design, allows me to create seamless and engaging web experiences. Explore my portfolio to see my commitment to creating captivating and user-friendly websites.",
     },
   },
 

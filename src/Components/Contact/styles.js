@@ -49,7 +49,7 @@ input, textarea{
     resize: none;
     outline: none;
     border: none;
-    width: 100vw;
+    width: 100%;
     max-width: 30rem;
     padding: 0.5rem 1rem;
     font-family: "Poppins", sans-serif;
@@ -59,10 +59,6 @@ input, textarea{
     text-align: start;
     color: white;
 
-}
-input:nth-child(3){
-height    : 6rem;
-overflow: scroll;
 }
 `
 

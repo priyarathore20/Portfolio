@@ -8,7 +8,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <ContactFormWrapper>
+    <ContactFormWrapper id="contact">
       <ContactHead>Contact Me</ContactHead>
       <ContactText>
         Please fill out the form below to discuss any work opportunity.

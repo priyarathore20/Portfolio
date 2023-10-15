@@ -14,7 +14,7 @@ import { data } from "../../data";
 
 const MyClients = () => {
   return (
-    <ClientWrapper id="clients">
+    <ClientWrapper id="skills">
       <ClientHeader>{data.skillSection.title}</ClientHeader>
       {data.skillSection.text && (
         <ClientDescription>{data.skillSection.text}</ClientDescription>
