@@ -38,6 +38,8 @@ margin-bottom: 1rem;
 
 export const ContactForm = styled.form`
 display: flex;
+width: 100%;
+max-width: 25rem;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
@@ -50,7 +52,6 @@ input, textarea{
     outline: none;
     border: none;
     width: 100%;
-    max-width: 30rem;
     padding: 0.5rem 1rem;
     font-family: "Poppins", sans-serif;
     border-radius: .5rem;
@@ -59,6 +60,10 @@ input, textarea{
     text-align: start;
     color: white;
 
+}
+
+@media screen and (max-width: 585px) {
+    width: 80%;
 }
 `
 

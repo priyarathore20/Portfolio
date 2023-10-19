@@ -11,7 +11,9 @@ const FooterSection = () => {
     <FooterWrapper>
       <img src={logo1} alt="" />
       <img src={logo2} alt="" />
-      <img src={logo3} alt="" />
+      <a href="mailto:rathorepriya1705@gmail.com">
+        <img src={logo3} alt="" />
+      </a>
       <img src={logo4} alt="" />
     </FooterWrapper>
   );

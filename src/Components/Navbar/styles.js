@@ -12,12 +12,28 @@ export const NavbarWrapper = styled.nav`
   position: sticky;
   top: 0;
   background-color: rgb(30, 30, 30);
-  z-index: 5;
+  z-index: 11;
+
+  svg {
+    display: none;
+    height: 30px;
+    width: 35px;
+    cursor: pointer;
+
+    @media screen and (max-width: 760px) {
+      display: block;
+      margin: 0 3rem;
+    }
+  }
 
   img {
     object-fit: cover;
     height: 4rem;
     width: 4rem;
+
+    @media screen and (max-width: 760px) {
+      margin: 0 3rem;
+    }
   }
 `;
 export const DesktopMenu = styled.div`
@@ -33,6 +49,10 @@ export const DesktopMenu = styled.div`
     color: yellow;
     padding-bottom: 0.5rem;
   }
+
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
 `;
 export const DesktopMenuBtn = styled.button`
   display: flex;
@@ -47,11 +67,11 @@ export const DesktopMenuBtn = styled.button`
   cursor: pointer;
   font-size: 14px;
 
-a{
-  display: flex;
-  align-items: center;
-  color: #000;
-}
+  a {
+    display: flex;
+    align-items: center;
+    color: #000;
+  }
 
   img {
     height: 1rem;
@@ -59,9 +79,42 @@ a{
     margin: 1rem;
     object-fit: cover;
   }
-`
+
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
+`;
 
 export const BurgerMenu = styled.div`
-display: none;
-/* visibility: hidden; */
-`
+  top: 0;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10rem 0;
+  background-color: rgb(35, 35, 35);
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  clip-path: ${({showNav})=> !showNav ? "circle(100px at 50% -15%)" : "circle(2000px at 50% -10%)"};
+  transition: all 0.5s ease-out;
+
+  a {
+    color: white;
+    font-size: 16px;
+  }
+  a:hover {
+    border-bottom: 3px solid yellow;
+    color: yellow;
+    padding-bottom: 0.5rem;
+  }
+
+  /* @media screen and (max-width: 760px) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+} */
+`;

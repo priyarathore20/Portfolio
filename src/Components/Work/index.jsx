@@ -1,6 +1,15 @@
 import React from "react";
 import "./styles";
-import { WorkCard, WorkCards, WorkHead, WorkText, WorkWrapper } from "./styles";
+import {
+  WorkCard,
+  WorkCardActions,
+  WorkCardDetails,
+  WorkCardImg,
+  WorkCards,
+  WorkHead,
+  WorkText,
+  WorkWrapper,
+} from "./styles";
 import { data } from "../../data";
 
 const WorkSection = () => {
@@ -11,19 +20,21 @@ const WorkSection = () => {
       <WorkCards>
         {data.workSection.projects.map((item) => (
           <WorkCard color={item.color} hover={item.hover}>
-            <img src={item.img} alt={item.name} />
-            <section>
+            <WorkCardImg>
+              <img src={item.img} alt={item.name} />
+            </WorkCardImg>
+            <WorkCardDetails>
               <h4>{item.name}</h4>
               <p>{item.desc}</p>
-              <div>
+              <WorkCardActions>
                 <div>
                   <a href={item.git}>Github</a>
                 </div>
                 <div>
                   <a href={item.vercel}>View now</a>
                 </div>
-              </div>
-            </section>
+              </WorkCardActions>
+            </WorkCardDetails>
           </WorkCard>
         ))}
       </WorkCards>

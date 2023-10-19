@@ -6,7 +6,7 @@ import firebaseIcon from '../src/assets/firebase.svg'
 import instaImg from '../src/assets/instagram (1).png'
 import wtsapImg from '../src/assets/whatsapp.png'
 import netflixImg from '../src/assets/netflix.png'
-import cartImg from '../src/assets/e-cart.jpg'
+import cartImg from '../src/assets/e-cart.png'
 import booksImg from '../src/assets/books-png.png'
 import linkedIn from '../src/assets/linkedin-icon.png'
 import git from '../src/assets/github-icon.png'
@@ -119,9 +119,9 @@ export const data = {
   },
 
   footer: [
-   {linkedIn : "", img: ""},
-   {github : "", img: ""},
-   {email:'', img: ""} 
+   {linkedIn : "https://www.linkedin.com/in/priya-rathore-46370b250/", img: linkedIn},
+   {github : "https://github.com/priyarathore20", img: git},
+   {email:'', img: mail} 
   ]
 };
 

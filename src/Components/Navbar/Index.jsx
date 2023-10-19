@@ -8,12 +8,15 @@ import {
 } from "./styles";
 import Logo from "../../assets/logo.png";
 import ContactImg from "../../assets/contact.png";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+
   return (
     <>
-      <NavbarWrapper color="red">
+      <NavbarWrapper>
         <img src={Logo} alt="" />
         <DesktopMenu>
           <a href="#intro">Home</a>
@@ -27,13 +30,21 @@ const Navbar = () => {
             Contact me{" "}
           </a>
         </DesktopMenuBtn>
+        <AiOutlineMenu onClick={() => setShowNav(!showNav)} />
       </NavbarWrapper>
-      <BurgerMenu>
-        <AiOutlineClose />
-        <a href="#intro">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#works">Projects</a>
+      <BurgerMenu showNav={showNav}>
+        <a href="#intro" onClick={() => setShowNav(false)}>
+          Home
+        </a>
+        <a href="#about" onClick={() => setShowNav(false)}>
+          About
+        </a>
+        <a href="#skills" onClick={() => setShowNav(false)}>
+          Skills
+        </a>
+        <a href="#works" onClick={() => setShowNav(false)}>
+          Projects
+        </a>
       </BurgerMenu>
     </>
   );
