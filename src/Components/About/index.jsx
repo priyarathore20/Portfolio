@@ -9,7 +9,6 @@ import {
   AboutText,
 } from "./styles.js";
 import uiDesign from "../../assets/ui-design.png";
-import appDesign from "../../assets/app-design.png";
 import webDesign from "../../assets/website-design.png";
 import { data } from "../../data.js";
 

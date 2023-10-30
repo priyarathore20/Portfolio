@@ -1,20 +1,16 @@
 import React from "react";
 import "./styles";
 import { FooterWrapper } from "./styles";
-import logo1 from "../../assets/facebook-icon.png";
-import logo2 from "../../assets/instagram.png";
-import logo3 from "../../assets/twitter.png";
-import logo4 from "../../assets/youtube.png";
+import { data } from "../../data";
 
 const FooterSection = () => {
   return (
     <FooterWrapper>
-      <img src={logo1} alt="" />
-      <img src={logo2} alt="" />
-      <a href="mailto:rathorepriya1705@gmail.com">
-        <img src={logo3} alt="" />
-      </a>
-      <img src={logo4} alt="" />
+      {data.footer.map((item) => (
+        <a href={item.href}>
+          <img src={item.img} alt={item.img} />
+        </a>
+      ))}
     </FooterWrapper>
   );
 };

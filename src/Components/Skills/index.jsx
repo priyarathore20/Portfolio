@@ -6,10 +6,6 @@ import {
   ClientHeader,
   ClientWrapper,
 } from "./styles";
-import company1 from "../../assets/facebook.png";
-import company2 from "../../assets/walmart.png";
-import company3 from "../../assets/microsoft.png";
-import company4 from "../../assets/adobe.png";
 import { data } from "../../data";
 
 const MyClients = () => {

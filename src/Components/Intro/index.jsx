@@ -9,7 +9,7 @@ import {
   IntroWrapper,
   IntroButton,
 } from "./styles";
-import bg from "../../assets/image2.png";
+import bg from "../../assets/banner-img.svg";
 import btnImg from "../../assets/hireme.png";
 import inImg from "../../assets/linkedin-icon.png";
 import gitImg from "../../assets/github-icon.png";

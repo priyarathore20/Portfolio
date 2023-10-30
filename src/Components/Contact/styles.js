@@ -67,4 +67,7 @@ input, textarea{
 }
 `
 
-
+export const SuccessMsg = styled.p`
+font-size: 1.5rem;
+margin: 40px 0;
+`

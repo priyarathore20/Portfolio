@@ -16,5 +16,6 @@ img{
     height: 4rem;
     width: 4rem;
     object-fit: cover;
+    border-radius: 50%;
 }
 `

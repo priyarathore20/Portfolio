@@ -82,6 +82,7 @@ export const data = {
     {
       img: instaImg,
       color: "#d87696",
+      // color: "#DFBDC5",
       hover: "#a95470",
       name: "Instagram clone",
       desc: "A social media platform mimicking the key features of Instagram, facilitating photo with friends",
@@ -90,7 +91,7 @@ export const data = {
     },
     {
       img: cartImg,
-      color: "#092852",
+      color: "#224e8a",
       hover: "#456795",
       name: "Shopping cart",
       desc: "An e-commerce shopping cart system for users to add, view, and purchase selected products.",
@@ -99,7 +100,8 @@ export const data = {
     },
     {
       img: weatherImg,
-      color: "gray",
+      // color: "gray",
+      color: "#AF73AE",
       hover: "rgb(60,60,60)",
       name: "Weather forecast",
       desc: "I attempted to create a static replica of Netflix's homepage.",
@@ -108,7 +110,7 @@ export const data = {
     },
     {
       img: booksImg,
-      color: "#d64034",
+      color: "#df645a",
       hover: "#852119",
       name: "Google books API",
       desc: "A project using the Google Books API to access and display book-name on search.",
@@ -119,9 +121,9 @@ export const data = {
   },
 
   footer: [
-   {linkedIn : "https://www.linkedin.com/in/priya-rathore-46370b250/", img: linkedIn},
-   {github : "https://github.com/priyarathore20", img: git},
-   {email:'', img: mail} 
+   {href : "https://www.linkedin.com/in/priya-rathore20", img: linkedIn},
+   {href : "https://github.com/priyarathore20", img: git},
+   {href:'mailto:rathorepriya1705@gmail.com', img: "https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png"} 
   ]
 };
 
