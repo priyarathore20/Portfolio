@@ -8,8 +8,11 @@ export const IntroWrapper = styled.section`
   overflow: hidden;
   position: relative;
 
-  @media screen and (max-width: 840px) {
-  }
+  @media screen and (max-width: 968px) {
+display: flex;
+align-items: center;
+justify-content: center;
+}
 `;
 export const IntroContent = styled.div`
   height: 100vh;
@@ -24,13 +27,22 @@ export const IntroContent = styled.div`
   @media screen and (max-width: 840px) {
     font-size: 10vw;
   }
+  @media screen and (max-width: 968px) {
+    align-items: center;
+    /* justify-content: left; */
+    /* text-align: left; */
+  }
 `;
-export const Intro = styled.span`
+export const Intro = styled.text`
   font-size: 1.75rem;
   font-weight: 100;
 
   @media screen and (max-width: 840px) {
-    font-size: 4.5vw;
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 435px) {
+    font-size: 1.25rem;
   }
 `;
 export const IntroPara = styled.p`
@@ -57,6 +69,11 @@ export const IntroPara = styled.p`
   }
 
   @media screen and (max-width: 840px) {
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 435px) {
+    font-size: 0.8rem;
   }
 `;
 export const IntroText = styled.span`
@@ -65,6 +82,11 @@ export const IntroText = styled.span`
   }
 
   @media screen and (max-width: 840px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 435px) {
+    font-size: 2rem;
   }
 `
 export const IntroButton = styled.a`
@@ -84,16 +106,16 @@ cursor: pointer;
 `
 export const IntroImg = styled.img`
   position: absolute;
-  top: -4rem;
+  top: 2rem;
   z-index: -1;
   object-fit: cover;
   right: 0;
-  height: 100vh;
+  height: 80vh;
 
-  @media screen and (max-width: 840px) {
-    right: -12vw;
+  @media screen and (max-width: 1036px) {
+    right: 2rem;
   }
-  @media screen and (max-width: 480px) {
-    right: -25vw;
+  @media screen and (max-width: 968px) {
+    display: none;
   }
 `;

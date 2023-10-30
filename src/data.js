@@ -5,8 +5,8 @@ import reactIcon from '../src/assets/atom.png'
 import firebaseIcon from '../src/assets/firebase.svg'
 import instaImg from '../src/assets/instagram (1).png'
 import wtsapImg from '../src/assets/whatsapp.png'
-import netflixImg from '../src/assets/netflix.png'
-import cartImg from '../src/assets/e-cart.png'
+import weatherImg from '../src/assets/weather-removebg-preview.png'
+import cartImg from '../src/assets/cart-removebg-preview.png'
 import booksImg from '../src/assets/books-png.png'
 import linkedIn from '../src/assets/linkedin-icon.png'
 import git from '../src/assets/github-icon.png'
@@ -90,26 +90,26 @@ export const data = {
     },
     {
       img: cartImg,
-      color: "#eb7966",
-      hover: "#be5341",
+      color: "#092852",
+      hover: "#456795",
       name: "Shopping cart",
       desc: "An e-commerce shopping cart system for users to add, view, and purchase selected products.",
       git: "https://github.com/priyarathore20/Shopping-Cart",
       vercel: ""
     },
     {
-      img: netflixImg,
+      img: weatherImg,
       color: "gray",
       hover: "rgb(60,60,60)",
-      name: "Netflix home page",
+      name: "Weather forecast",
       desc: "I attempted to create a static replica of Netflix's homepage.",
       git: "https://github.com/priyarathore20/netflix-webpage",
       vercel: ""
     },
     {
       img: booksImg,
-      color: "blueviolet",
-      hover: "#441570",
+      color: "#d64034",
+      hover: "#852119",
       name: "Google books API",
       desc: "A project using the Google Books API to access and display book-name on search.",
       git: "https://github.com/priyarathore20/Books-app",

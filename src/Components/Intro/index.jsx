@@ -9,7 +9,7 @@ import {
   IntroWrapper,
   IntroButton,
 } from "./styles";
-import bg from "../../assets/image.png";
+import bg from "../../assets/image2.png";
 import btnImg from "../../assets/hireme.png";
 import inImg from "../../assets/linkedin-icon.png";
 import gitImg from "../../assets/github-icon.png";
@@ -19,8 +19,9 @@ const IntroSection = () => {
   return (
     <IntroWrapper id="intro">
       <IntroContent>
-        <Intro>{data.introSection.salutation}</Intro>
         <IntroText>
+          <Intro>{data.introSection.salutation}</Intro>
+          <br />
           I'm <span>{data.introSection.name}</span>
           <br />
           {data.introSection.designation}
