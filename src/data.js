@@ -77,7 +77,7 @@ export const data = {
       name: "Whatsapp clone",
       desc: "A messaging app replicating the core features and functionality of WhatsApp, offering secure and seamless communication.",
       git: "https://github.com/priyarathore20/whatsapp-clone",
-      vercel: ""
+      vercel: "https://whatsapp-clone-pi-six.vercel.app/"
     },
     {
       img: instaImg,
@@ -87,7 +87,7 @@ export const data = {
       name: "Instagram clone",
       desc: "A social media platform mimicking the key features of Instagram, facilitating photo with friends",
       git: "https://github.com/priyarathore20/Instagram-clone",
-      vercel: ""
+      vercel: "https://instagram-clone-one-lime.vercel.app/"
     },
     {
       img: cartImg,
@@ -96,17 +96,16 @@ export const data = {
       name: "Shopping cart",
       desc: "An e-commerce shopping cart system for users to add, view, and purchase selected products.",
       git: "https://github.com/priyarathore20/Shopping-Cart",
-      vercel: ""
+      vercel: "https://shopping-cart-two-chi.vercel.app/"
     },
     {
       img: weatherImg,
-      // color: "gray",
       color: "#AF73AE",
       hover: "rgb(60,60,60)",
       name: "Weather forecast",
       desc: "I attempted to create a static replica of Netflix's homepage.",
-      git: "https://github.com/priyarathore20/netflix-webpage",
-      vercel: ""
+      git: "https://github.com/priyarathore20/weather-forecast",
+      vercel: "https://weather-forecast-chi-lac.vercel.app/"
     },
     {
       img: booksImg,
@@ -115,7 +114,7 @@ export const data = {
       name: "Google books API",
       desc: "A project using the Google Books API to access and display book-name on search.",
       git: "https://github.com/priyarathore20/Books-app",
-      vercel: ""
+      vercel: "https://books-app-beta.vercel.app/"
     }
   ]
   },
