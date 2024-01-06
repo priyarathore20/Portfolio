@@ -112,7 +112,7 @@ export const data = {
       color: "#df645a",
       hover: "#852119",
       name: "Google books API",
-      desc: "A project using the Google Books API to access and display book-name on search.",
+      desc: "A project using the Google Book API to access and display book-name on search.",
       git: "https://github.com/priyarathore20/Books-app",
       vercel: "https://books-app-beta.vercel.app/"
     }
