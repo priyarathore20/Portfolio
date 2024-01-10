@@ -15,7 +15,7 @@ export const IntroWrapper = styled.section`
   }
 `;
 export const IntroContent = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   padding: 2rem;
   font-size: 3rem;
