@@ -37,12 +37,12 @@ const IntroSection = () => {
             </a>
           </IntroPara>
           <IntroButton>
-            <a href="https://www.linkedin.com/in/priya-rathore-46370b250/">
+            <a href="https://www.linkedin.com/in/priya-rathore-46370b250/" target="_blank" rel="noreferrer">
               <img src={inImg} alt="" />
             </a>
           </IntroButton>
           <IntroButton>
-            <a href="https://github.com/priyarathore20" alt="">
+            <a href="https://github.com/priyarathore20" alt="" target="_blank" rel="noreferrer">
               <img src={gitImg} alt="" />
             </a>
           </IntroButton>
