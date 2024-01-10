@@ -10,7 +10,6 @@ import cartImg from '../src/assets/cart-removebg-preview.png'
 import booksImg from '../src/assets/books-png.png'
 import linkedIn from '../src/assets/linkedin-icon.png'
 import git from '../src/assets/github-icon.png'
-import mail from '../src/assets/mail.png'
 
 export const data = {
   introSection: {

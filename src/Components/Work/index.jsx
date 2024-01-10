@@ -28,10 +28,10 @@ const WorkSection = () => {
               <p>{item.desc}</p>
               <WorkCardActions>
                 <div>
-                  <a href={item.git}>Github</a>
+                  <a href={item.git} target="_blank" rel="noreferrer">Github</a>
                 </div>
                 <div>
-                  <a href={item.vercel}>View now</a>
+                  <a href={item.vercel} target="_blank" rel="noreferrer">View now</a>
                 </div>
               </WorkCardActions>
             </WorkCardDetails>

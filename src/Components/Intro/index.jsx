@@ -30,7 +30,7 @@ const IntroSection = () => {
             <br /> {data.introSection.description[1]}
             <br /> {data.introSection.description[2]}
             <br /> {data.introSection.description[3]} <br />
-            <a href="www.youtube.com">
+            <a href="#contact">
               <button>
                 <img src={btnImg} alt="" /> Hire me
               </button>
