@@ -22,17 +22,15 @@ export const NavbarWrapper = styled.nav`
 
     @media screen and (max-width: 760px) {
       display: block;
-      margin: 0 3rem;
     }
   }
 
   img {
-    object-fit: cover;
+    object-fit: contain;
     height: 4rem;
-    width: 4rem;
 
     @media screen and (max-width: 760px) {
-      margin: 0 3rem;
+      height: 3rem;
     }
   }
 `;
@@ -98,7 +96,8 @@ export const BurgerMenu = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  clip-path: ${({showNav})=> !showNav ? "circle(100px at 50% -15%)" : "circle(2000px at 50% -10%)"};
+  clip-path: ${({ showNav }) =>
+    !showNav ? "circle(100px at 50% -15%)" : "circle(2000px at 50% -10%)"};
   transition: all 0.5s ease-out;
 
   a {
