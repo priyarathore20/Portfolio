@@ -9,10 +9,10 @@ export const IntroWrapper = styled.section`
   position: relative;
 
   @media screen and (max-width: 968px) {
-display: flex;
-align-items: center;
-justify-content: center;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 export const IntroContent = styled.div`
   height: 100vh;
@@ -71,7 +71,7 @@ export const IntroPara = styled.p`
   @media screen and (max-width: 840px) {
     font-size: 1rem;
   }
-  
+
   @media screen and (max-width: 435px) {
     font-size: 0.8rem;
   }
@@ -88,22 +88,27 @@ export const IntroText = styled.span`
   @media screen and (max-width: 435px) {
     font-size: 2rem;
   }
-`
-export const IntroButton = styled.a`
-    height: 50px;
-    width: 100%;
-    max-width: 90px;
-margin-right: 10px;
-border-radius: 0.5rem;
+`;
+export const IntroButtons = styled.div`
+  display: flex;
+  gap: 12px;
+`;
 
- img{
+export const IntroButton = styled.a`
   height: 50px;
-  width: 50px;
-object-fit: cover;
-border-radius: 50%;
-cursor: pointer;
-}
-`
+  width: 100%;
+  max-width: 90px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+
+  img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+`;
 export const IntroImg = styled.img`
   position: absolute;
   top: 2rem;
