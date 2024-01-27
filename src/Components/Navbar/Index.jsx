@@ -20,7 +20,6 @@ const Navbar = () => {
         <img src={Logo} alt="" />
         <DesktopMenu>
           <a href="#intro">Home</a>
-          <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#works">Projects</a>
         </DesktopMenu>

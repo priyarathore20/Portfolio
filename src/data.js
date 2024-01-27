@@ -1,15 +1,18 @@
-import htmlImg from '../src/assets/html.png'
-import cssIcon from '../src/assets/css-3.png'
-import jsIcon from "../src/assets/js.png"
-import reactIcon from '../src/assets/atom.png'
-import firebaseIcon from '../src/assets/firebase.svg'
-import instaImg from '../src/assets/instagram (1).png'
-import wtsapImg from '../src/assets/whatsapp.png'
-import weatherImg from '../src/assets/weather-removebg-preview.png'
-import cartImg from '../src/assets/cart-removebg-preview.png'
-import booksImg from '../src/assets/books-png.png'
-import linkedIn from '../src/assets/linkedin-icon.png'
-import git from '../src/assets/github-icon.png'
+import htmlImg from './assets/html.png'
+import cssIcon from './assets/css-3.png'
+import jsIcon from "./assets/js.png"
+import reactIcon from './assets/atom.png'
+import nextIcon from './assets/nextjs.png'
+import firebaseIcon from './assets/firebase.svg'
+import instaImg from './assets/instagram-1.png'
+import dukaanIcon from './assets/dukaanIcon.png'
+import weatherImg from './assets/weather-removebg-preview.png'
+import cartImg from './assets/cart-removebg-preview.png'
+import booksImg from './assets/books-png.png'
+import linkedIn from './assets/linkedin-icon.png'
+import git from './assets/github-icon.png'
+import mail from './assets/mail.png'
+import tailwindIcon from './assets/tailwind.png'
 
 export const data = {
   introSection: {
@@ -53,9 +56,17 @@ export const data = {
          img: jsIcon
       },
       { 
-         label: "REACT",
+         label: "REACT JS",
          img: reactIcon
       },
+      {
+        label: 'NEXT JS',
+        img: nextIcon
+     },
+     {
+      label: 'TAILWIND CSS',
+      img: tailwindIcon
+   },
       {
          label: "FIREBASE",
          img: firebaseIcon
@@ -70,11 +81,11 @@ export const data = {
   
   projects:[
     {
-      img: wtsapImg,
-      color: "#229b5e",
+      img: dukaanIcon,
+      color: "#fff",
       hover: "#167043",
-      name: "Whatsapp clone",
-      desc: "A messaging app replicating the core features and functionality of WhatsApp, offering secure and seamless communication.",
+      name: "Dukaan dashboard",
+      desc: "I meticulously translated design concepts into a pixel-perfect, static website, ensuring every detail was flawlessly captured.",
       git: "https://github.com/priyarathore20/whatsapp-clone",
       vercel: "https://whatsapp-clone-pi-six.vercel.app/"
     },
@@ -121,7 +132,7 @@ export const data = {
   footer: [
    {href : "https://www.linkedin.com/in/priya-rathore20", img: linkedIn},
    {href : "https://github.com/priyarathore20", img: git},
-   {href:'mailto:rathorepriya1705@gmail.com', img: "https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png"} 
+   {href:'mailto:rathorepriya1705@gmail.com', img: mail} 
   ]
 };
 

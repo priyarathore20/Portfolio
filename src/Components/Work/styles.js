@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 export const WorkWrapper = styled.div`
   overflow: hidden;
@@ -49,6 +49,7 @@ export const WorkCard = styled.div`
   max-width: 40rem;
   width: 100vw;
   background-color: ${({ color }) => color};
+  color: black;
   border-radius: 1.5rem;
   padding: 20px;
   padding-bottom: 24px;
@@ -144,4 +145,9 @@ export const WorkCardActions = styled.div`
   justify-content: center;
   gap: 0.75rem;
   align-items: center;
+  
+  a{
+    color: #000;
+    border-color: #000;
+  }
 `;
