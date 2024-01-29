@@ -86,8 +86,8 @@ export const data = {
       hover: "#167043",
       name: "Dukaan dashboard",
       desc: "I meticulously translated design concepts into a pixel-perfect, static website, ensuring every detail was flawlessly captured.",
-      git: "https://github.com/priyarathore20/whatsapp-clone",
-      vercel: "https://whatsapp-clone-pi-six.vercel.app/"
+      git: "https://github.com/priyarathore20/payouts",
+      vercel: "https://payouts-nu.vercel.app/"
     },
     {
       img: instaImg,
