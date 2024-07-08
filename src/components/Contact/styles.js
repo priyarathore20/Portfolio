@@ -62,10 +62,6 @@ input, textarea{
 
 }
 
-button{
-    color: black;
-}
-
 @media screen and (max-width: 585px) {
     width: 80%;
 }

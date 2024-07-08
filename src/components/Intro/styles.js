@@ -90,12 +90,8 @@ export const IntroText = styled.span`
   }
 `;
 export const IntroButtons = styled.div`
-  display: flex; 
+  display: flex;
   gap: 12px;
-
-  button{
-    color: black;
-  }
 `;
 
 export const IntroButton = styled.a`

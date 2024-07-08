@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 export const ClientWrapper = styled.div`
 overflow:hidden;
@@ -34,9 +34,9 @@ gap: 2rem;
 margin-bottom: 2rem;
 
 @media screen and (max-width: 584px) {
+    grid-template-columns: 1fr;
 }
-@media screen and (max-width: 480px) {
-   grid-template-columns: 1fr 1fr ;
+@media screen and (max-width: 768px) {
    gap : 1rem;
 }
 `
@@ -46,7 +46,7 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 gap: 16px;
-padding: 1rem 1.5rem;
+padding: 1.75rem 2rem;
 justify-content: space-between;
 border: 1px solid rgb(50, 50, 50);
 
@@ -72,7 +72,6 @@ img{
 }
 @media screen and (max-width: 768px) {
    padding: 1rem 1.5rem;
-   flex-direction: column;
 }
 `
 
