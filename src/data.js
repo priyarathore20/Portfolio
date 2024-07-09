@@ -19,6 +19,7 @@ import expressIcon from "./assets/express.jpg";
 import strapiIcon from "./assets/strapi.png";
 import graphqlIcon from "./assets/graphql.png";
 import mongoIcon from "./assets/mongo.png";
+import carIcon from "./assets/carsLogo.png";
 
 export const data = {
   introSection: {
@@ -143,6 +144,15 @@ export const data = {
         desc: "I meticulously translated design concepts into a pixel-perfect, static website, ensuring every detail was flawlessly captured.",
         git: "https://github.com/priyarathore20/payouts",
         vercel: "https://payouts-nu.vercel.app/",
+      },
+      {
+        img: carIcon,
+        color: "#ecd982",
+        hover: "#ecd952",
+        name: "Cars-hub API",
+        desc: "It retrieves global car data and presents it with visually appealing images. We can also sort by brand, year, fuel type, and model.",
+        git: "https://github.com/priyarathore20/Cars-hub",
+        vercel: "https://cars-hub-rapid-api.vercel.app/",
       },
       {
         img: weatherImg,
