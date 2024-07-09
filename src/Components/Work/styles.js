@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const WorkWrapper = styled.div`
   overflow: hidden;
   width: 100vw;
-  min-height: calc(100vh - 4rem);
   max-width: 65rem;
   display: flex;
   flex-direction: column;

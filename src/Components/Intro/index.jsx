@@ -33,25 +33,38 @@ const IntroSection = () => {
             <br /> {data.introSection.description[2]}
             <br /> {data.introSection.description[3]} <br />
             <IntroButtons>
-            <a href="#contact">
-              <button>
-                <img src={btnImg} alt="" /> Hire me
-              </button>
-            </a>
-            <a href="https://drive.google.com/file/d/17xLiUaU4qZdLpH5rfWIp6tT3HSsMZ2ms/view" target="_blank" rel="noreferrer">
-              <button>
-                <img src={downloadIcon} alt="" /> Resume
-              </button>
-            </a>
+              <a href="#contact">
+                <button>
+                  <img src={btnImg} alt="" /> Hire me
+                </button>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1DOhDK5CSY4OBBNCG9sU_XyKyXIHCmBsh/view?usp=drivesdk&usp=embed_facebook&usp=embed_facebook"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>
+                  <img src={downloadIcon} alt="" /> Resume
+                </button>
+              </a>
             </IntroButtons>
           </IntroPara>
           <IntroButton>
-            <a href="https://www.linkedin.com/in/priya-rathore-46370b250/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/priya-rathore-46370b250/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={inImg} alt="" />
             </a>
           </IntroButton>
           <IntroButton>
-            <a href="https://github.com/priyarathore20" alt="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/priyarathore20"
+              alt=""
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={gitImg} alt="" />
             </a>
           </IntroButton>

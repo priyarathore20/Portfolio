@@ -10,15 +10,14 @@ import {
   WorkText,
   WorkWrapper,
 } from "./styles";
-import { data } from "../../data";
 
-const WorkSection = () => {
+const WorkSection = ({ title, description, data }) => {
   return (
     <WorkWrapper id="works">
-      <WorkHead>{data.workSection.title}</WorkHead>
-      <WorkText>{data.workSection.text}</WorkText>
+      <WorkHead>{title}</WorkHead>
+      <WorkText>{description}</WorkText>
       <WorkCards>
-        {data.workSection.projects.map((item) => (
+        {data.map((item) => (
           <WorkCard color={item.color} hover={item.hover}>
             <WorkCardImg>
               <img src={item.img} alt={item.name} />
@@ -27,11 +26,17 @@ const WorkSection = () => {
               <h4>{item.name}</h4>
               <p>{item.desc}</p>
               <WorkCardActions>
+                {item?.git && (
+                  <div>
+                    <a href={item.git} target="_blank" rel="noreferrer">
+                      Github
+                    </a>
+                  </div>
+                )}
                 <div>
-                  <a href={item.git} target="_blank" rel="noreferrer">Github</a>
-                </div>
-                <div>
-                  <a href={item.vercel} target="_blank" rel="noreferrer">View now</a>
+                  <a href={item.vercel} target="_blank" rel="noreferrer">
+                    View now
+                  </a>
                 </div>
               </WorkCardActions>
             </WorkCardDetails>
